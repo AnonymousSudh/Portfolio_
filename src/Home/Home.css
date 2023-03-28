@@ -1,0 +1,47 @@
+.HomeSection {
+  /* border: 10px solid rgb(0, 0, 255);    */
+  /* width: 80vw; */
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-image: url("../image/bh.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+.HomeContainer {
+  /* border: 10px solid red; */
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.span {
+  color: #cd5ff8;
+}
+.introDiv h1 {
+  font-size: 3rem;
+}
+
+.introDiv h3 {
+  font-size: 2rem;
+}
+
+.GifImage {
+  /* border: 1px solid red;/ */
+  width: 30rem;
+  height: 30rem;
+}
+
+@media screen and (max-width: 480px) {
+  .HomeContainer {
+    flex-direction: column;
+  }
+  /* font-size: 30px; */
+}
+@media screen {
+}

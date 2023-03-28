@@ -1,0 +1,19 @@
+.ProjectDiv {
+  /* border: 5px solid red; */
+  background-color: #0a192f;
+  max-width: 100vw;  
+  /* height: 600px; */
+  display: flex;
+  justify-content: center;
+}
+.ProjectContainer {
+  /* border: 5px solid red; */
+  /* min-width: 80vw;  */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Project{
+  /* border: 1px solid green; */
+  margin: 2rem 0;
+}

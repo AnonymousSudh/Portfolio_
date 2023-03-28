@@ -1,0 +1,44 @@
+.SocialParent {
+  /* border: 4px solid yellow; */
+  width: 5vw;
+  position: fixed;
+  bottom: 0;
+
+}
+.SocialMedia {
+  /* border: 6px solid rgb(13, 241, 9); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 55vh;
+  justify-content: space-between;
+}
+.SocialMediaContainer {
+  /* border: 6px solid red;    */
+  height: 24vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* justify-self: unset;    / */
+  /* align-items: ; */
+}
+.SocialICon {
+  /* border: 1px solid #64ffda; */
+  /* position: absolute; */
+  width: 32px;
+  height: 32px;
+  transition: 0.1s;
+}
+.SocialICon:hover {
+  /* transform:skew(20deg) */
+  width: 35px;
+  height: 35px;
+}
+
+.Line {
+  /* border:1px solid #64FFDA; */
+  background-color: #64ffda;
+  width: 1px;
+  height: 24vh;
+}
